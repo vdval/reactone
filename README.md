@@ -2,17 +2,18 @@
 
 ## Known problem with autoprefixer :
 
-'''npm uninstall tailwindcss postcss autoprefixer
-'''npm install tailwindcss@latest postcss@latest autoprefixer@latest
+```npm uninstall tailwindcss postcss autoprefixer
+npm install tailwindcss@latest postcss@latest autoprefixer@latest
 
-'''npx tailwindcss init -p
+npx tailwindcss init -p
 
-'''npm uninstall tailwindcss postcss autoprefixer
-'''npm install tailwindcss@npm:@tailwindcss/postcss7-compat postcss@^7 autoprefixer@^9
+npm uninstall tailwindcss postcss autoprefixer
+npm install tailwindcss@npm:@tailwindcss/postcss7-compat postcss@^7 autoprefixer@^9
+```
 
 ## and then :
 
-'''npm audit fix
+```npm audit fix```
 
 
 ## This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
